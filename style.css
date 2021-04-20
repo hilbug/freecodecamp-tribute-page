@@ -1,0 +1,60 @@
+/* Set root colors? */
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Nanum+Gothic&display=swap');
+
+body {
+    background-color: seagreen;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+h1 {
+    font-family: 'Irish Grover', cursive;
+    font-size: 75px;
+}
+
+p {
+    margin: 0px;
+}
+
+.row {
+    margin: 25px 0px 25px 0px;
+}
+
+.header, 
+#img-div, 
+#tribute-info,
+#footer {
+    background-color: seashell;
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.header {
+    padding: 50px;
+}
+
+#img-div, 
+#tribute-info,
+#footer {
+    padding: 20px;
+}
+
+img {
+    border-radius: 15px;
+    display: block;
+}
+
+#tribute-info {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: seagreen;
+    text-decoration: underline !important;
+}
