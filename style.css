@@ -58,3 +58,13 @@ a:hover {
     color: seagreen;
     text-decoration: underline !important;
 }
+
+@media ( max-width: 26.25em ) {
+    h1 {
+        font-size: 1.875em;
+      }
+}
+
+/* 
+Make h1 font size responsive - solution from https://www.sitepoint.com/community/t/making-h1-tags-responsive/307497/2
+*/
