@@ -54,7 +54,6 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
     color: seagreen;
     text-decoration: underline !important;
 }
